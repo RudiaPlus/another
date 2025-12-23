@@ -1,0 +1,40 @@
+{
+    "uid": "card_001_instance_99",
+    "name": "火球・代償・剛力",
+    "baseCost": 2,
+    "lines": [
+        {
+            "lineID": "curse_blood_offering",
+            "displayName": "吐血-5",
+            "type": "Curse",
+            "valueScore": -30,
+            "params": {
+                "dmgType": "true_damage",
+                "value": 5
+            },
+            "description": "HPを5失う"
+        },
+        {
+            "lineId": "buff_charge",
+            "displayName": "剛力+10",
+            "type": "Buff",
+            "valueScore": 40,
+            "params": {
+                "targetStat": "atkBuff",
+                "value": 10
+            },
+            "description": "下の行の威力+10"
+        },
+        {
+            "lineId": "effect_fire_attack",
+            "displayName": "火球+12",
+            "type": "Effect",
+            "valueScore": 50,
+            "params": {
+                "dmgType": "fire",
+                "baseValue": 12
+            },
+            "description": "敵に12ダメージ"
+        }
+    ]
+}
