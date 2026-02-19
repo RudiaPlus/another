@@ -1,0 +1,32 @@
+{
+    "cards": [
+        {
+            "uid": "enemy_card_slash_15",
+            "name": "敵の斬撃",
+            "baseCost": 0,
+            "lines": [
+                {
+                    "lineID": "attack_normal",
+                    "displayName": "斬撃 15",
+                    "displayPhrase": "斬撃",
+                    "displayValueText": " 15",
+                    "description": "プレイヤーに15ダメージ",
+                    "type": "Effect",
+                    "valueScore": 0,
+                    "paramsInt": [
+                        {
+                            "key": "baseValue",
+                            "value": 15
+                        }
+                    ],
+                    "paramsStr": [
+                        {
+                            "key": "dmgType",
+                            "value": "normal"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

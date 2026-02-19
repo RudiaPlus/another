@@ -1,0 +1,53 @@
+{
+    "cards": [
+        {
+            "uid": "card_001_fireball",
+            "name": "火球",
+            "baseCost": 2,
+            "lines": [
+                {
+                    "lineID": "buff_atk",
+                    "displayName": "攻撃+5",
+                    "displayPhrase": "攻撃増",
+                    "displayValueText": "+5",
+                    "description": "攻撃力+5",
+                    "type": "Buff",
+                    "valueScore": 30,
+                    "paramsInt": [
+                        {
+                            "key": "value",
+                            "value": 5
+                        }
+                    ],
+                    "paramsStr": [
+                        {
+                            "key": "targetStat",
+                            "value": "atkBuff"
+                        }
+                    ]
+                },
+                {
+                    "lineID": "effect_fire_attack",
+                    "displayName": "火球+12",
+                    "displayPhrase": "火球",
+                    "displayValueText": "+12",
+                    "description": "敵に12の炎ダメージ",
+                    "type": "Effect",
+                    "valueScore": 50,
+                    "paramsInt": [
+                        {
+                            "key": "baseValue",
+                            "value": 12
+                        }
+                    ],
+                    "paramsStr": [
+                        {
+                            "key": "dmgType",
+                            "value": "fire"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

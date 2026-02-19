@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "uid": "boss_card_rage_strike_l2",
+            "name": "激昂の連撃II",
+            "baseCost": 0,
+            "lines": [
+                {
+                    "effectId": "boss_scaling_strength",
+                    "lineID": "perm_strength_up",
+                    "displayName": "激昂+5",
+                    "displayPhrase": "激昂",
+                    "displayValueText": "+5",
+                    "description": "自身の攻撃力を永続的に+5する",
+                    "type": "Buff",
+                    "valueScore": 100,
+                    "paramsInt": [{"key": "value", "value": 5}],
+                    "paramsStr": []
+                },
+                {
+                    "lineID": "attack_normal",
+                    "displayName": "強撃 20",
+                    "displayPhrase": "強撃",
+                    "displayValueText": " 20",
+                    "description": "プレイヤーに20ダメージ",
+                    "type": "Effect",
+                    "valueScore": 0,
+                    "paramsInt": [{"key": "baseValue", "value": 20}],
+                    "paramsStr": [{"key": "dmgType", "value": "normal"}]
+                }
+            ]
+        }
+    ]
+}

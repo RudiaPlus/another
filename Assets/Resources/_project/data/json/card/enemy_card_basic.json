@@ -1,0 +1,28 @@
+{
+    "uid": "enemy_card_basic",
+    "name": "敵の斬撃",
+    "baseCost": 0,
+    "lines": [
+        {
+            "lineID": "attack_normal",
+            "displayName": "斬撃 6",
+            "displayPhrase": "斬撃",
+            "displayValueText": " 6",
+            "description": "プレイヤーに6ダメージ",
+            "type": "Effect",
+            "valueScore": 0,
+            "paramsInt": [
+                {
+                    "key": "baseValue",
+                    "value": 6
+                }
+            ],
+            "paramsStr": [
+                {
+                    "key": "dmgType",
+                    "value": "normal"
+                }
+            ]
+        }
+    ]
+}

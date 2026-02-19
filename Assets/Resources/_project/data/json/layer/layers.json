@@ -1,0 +1,124 @@
+{
+  "layers": [
+    {
+      "layer": 1,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck.json",
+      "rewards": []
+    },
+    {
+      "layer": 2,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck.json",
+      "rewards": []
+    },
+    {
+      "layer": 3,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck.json",
+      "rewards": []
+    },
+    {
+      "layer": 4,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck.json",
+      "rewards": []
+    },
+    {
+      "layer": 5,
+      "isBoss": true,
+      "bossName": "ボス",
+      "effectProgressOffset": 0.1,
+      "enemyDeckPath": "Assets/_project/data/json/card/boss_deck_01.json",
+      "rewards": []
+    },
+    {
+      "layer": 6,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_06.json",
+      "rewards": []
+    },
+    {
+      "layer": 7,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_06.json",
+      "rewards": []
+    },
+    {
+      "layer": 8,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_06.json",
+      "rewards": []
+    },
+    {
+      "layer": 9,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_06.json",
+      "rewards": []
+    },
+    {
+      "layer": 10,
+      "isBoss": true,
+      "bossName": "ボス",
+      "effectProgressOffset": 0.15,
+      "enemyDeckPath": "Assets/_project/data/json/card/boss_deck_02.json",
+      "rewards": []
+    },
+    {
+      "layer": 11,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_11.json",
+      "rewards": []
+    },
+    {
+      "layer": 12,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_11.json",
+      "rewards": []
+    },
+    {
+      "layer": 13,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_11.json",
+      "rewards": []
+    },
+    {
+      "layer": 14,
+      "isBoss": false,
+      "bossName": "",
+      "effectProgressOffset": 0.0,
+      "enemyDeckPath": "Assets/_project/data/json/card/enemy_deck_11.json",
+      "rewards": []
+    },
+    {
+      "layer": 15,
+      "isBoss": true,
+      "bossName": "ボス",
+      "effectProgressOffset": 0.2,
+      "enemyDeckPath": "Assets/_project/data/json/card/boss_deck_03.json",
+      "rewards": []
+    }
+  ]
+}

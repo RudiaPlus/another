@@ -1,0 +1,34 @@
+{
+    "cards": [
+        {
+            "uid": "boss_card_rage_strike_l3",
+            "name": "激昂の連撃III",
+            "baseCost": 0,
+            "lines": [
+                {
+                    "effectId": "boss_scaling_strength",
+                    "lineID": "perm_strength_up",
+                    "displayName": "激昂+10",
+                    "displayPhrase": "激昂",
+                    "displayValueText": "+10",
+                    "description": "自身の攻撃力を永続的に+10する",
+                    "type": "Buff",
+                    "valueScore": 100,
+                    "paramsInt": [{"key": "value", "value": 10}],
+                    "paramsStr": []
+                },
+                {
+                    "lineID": "attack_normal",
+                    "displayName": "強撃 50",
+                    "displayPhrase": "強撃",
+                    "displayValueText": " 50",
+                    "description": "プレイヤーに50ダメージ",
+                    "type": "Effect",
+                    "valueScore": 0,
+                    "paramsInt": [{"key": "baseValue", "value": 50}],
+                    "paramsStr": [{"key": "dmgType", "value": "normal"}]
+                }
+            ]
+        }
+    ]
+}
